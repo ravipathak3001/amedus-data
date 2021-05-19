@@ -1,0 +1,81 @@
+{
+    "data": [
+        {
+            "type": "flight-destination",
+            "origin": "DEL",
+            "destination": "BOM",
+            "departureDate": "2021-05-25",
+            "returnDate": "2021-06-01",
+            "price": {
+                "total": "9168.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=DEL&destination=BOM&departureDate=2021-05-25&oneWay=false&duration=1,15&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=DEL&destinationLocationCode=BOM&departureDate=2021-05-25&returnDate=2021-06-01&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "DEL",
+            "destination": "BKK",
+            "departureDate": "2021-05-25",
+            "returnDate": "2021-05-31",
+            "price": {
+                "total": "240991.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=DEL&destination=BKK&departureDate=2021-05-25&oneWay=false&duration=1,15&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=DEL&destinationLocationCode=BKK&departureDate=2021-05-25&returnDate=2021-05-31&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "DEL",
+            "destination": "MEL",
+            "departureDate": "2021-05-25",
+            "returnDate": "2021-06-05",
+            "price": {
+                "total": "643855.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=DEL&destination=MEL&departureDate=2021-05-25&oneWay=false&duration=1,15&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=DEL&destinationLocationCode=MEL&departureDate=2021-05-25&returnDate=2021-06-05&adults=1&nonStop=false"
+            }
+        }
+    ],
+    "dictionaries": {
+        "currencies": {
+            "INR": "INDIAN RUPEE"
+        },
+        "locations": {
+            "BOM": {
+                "subType": "AIRPORT",
+                "detailedName": "CHHATRAPATI S MAHARAJ"
+            },
+            "BKK": {
+                "subType": "AIRPORT",
+                "detailedName": "SUVARNABHUMI INTL"
+            },
+            "MEL": {
+                "subType": "AIRPORT",
+                "detailedName": "MELBOURNE AIRPORT"
+            },
+            "DEL": {
+                "subType": "AIRPORT",
+                "detailedName": "INDIRA GANDHI INTL"
+            }
+        }
+    },
+    "meta": {
+        "currency": "INR",
+        "links": {
+            "self": "https://test.api.amadeus.com/v1/shopping/flight-destinations?origin=DEL&departureDate=2021-05-25&oneWay=false&duration=1,15&nonStop=false&viewBy=DESTINATION"
+        },
+        "defaults": {
+            "oneWay": false,
+            "duration": "1,15",
+            "nonStop": false,
+            "viewBy": "DESTINATION"
+        }
+    }
+}
